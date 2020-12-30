@@ -17,7 +17,6 @@ func (InstallmentEntity) Fields() []ent.Field {
 		field.String("name").NotEmpty(),
 		field.Int("age").Positive(),
 		field.String("Address").NotEmpty(),
-		field.String("Phone").NotEmpty(),
 	}
 }
 
